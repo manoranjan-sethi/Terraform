@@ -21,7 +21,7 @@ provider "aws" {
 
 # Create s3 bucket
 resource "aws_s3_bucket" "my_s3_bucket" {
-  bucket = "my-tf-unique-bucket2111-06-27"
+  bucket = "mys3bucket2111-06-27"
 
     tags = {
         Name        = "My bucket 2.0"
